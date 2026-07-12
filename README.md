@@ -118,3 +118,29 @@ This visualization tracks category-level trending momentum over time.
 - Entertainment and Sports also experience regular spikes, often driven by popular events or trending topics.
 - Audience interest changes over time, with noticeable increases and decreases across different categories.
 - Monitoring these trends can help creators identify the best time to publish content and focus on high-performing categories.
+
+- ## Metric Definitions
+- # Engagement Rate
+- Engagement rate measures audience interaction relative to video reach.
+
+   Engagement rate = (likes + comment count) / all views
+
+- # Engagement Efficiency
+  Engagement efficiency was used to compare interaction performance across categories after accounting for audience attention.
+
+-  Engagement efficiency = ('engagement_rate', 'mean')
+
+-  # Business Recommendations
+- Focus on content categories with consistently high engagement, such as Entertainment, Gaming, and Comedy.
+- Evaluate both views and engagement together, as popular videos do not always generate the strongest audience interaction.
+- Study high-engagement videos to identify successful content patterns and improve future content strategies.
+
+- # Limitations
+- The dataset represents a specific time period and may not reflect current YouTube trends.
+- Automated sentiment analysis may not accurately capture sarcasm or contextual meaning in comments.
+- This analysis identifies patterns and relationships but does not establish cause-and-effect between views and engagement.
+
+- # Future Enhancements
+- Integrate live YouTube data using the YouTube Data API.
+- Create an interactive dashboard for easier data exploration and reporting.
+- Use machine learning to predict which videos are likely to receive high engagement.
